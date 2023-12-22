@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <style>
+    body {
+      background-color: blueviolet;
+    }
+    table {
+  width: 100%;
+ }
+ td {
+  padding: 5px;
+  vertical-align: top;
+ }
+    </style>
+    <link rel="icon" href="k.webp" type="image/x-icon">
+  <link rel="styleshet" href="afds.css">
+    <title>
+        одежда
+    </title>
+    </head>
+    <body>
+      <table>
+        <tr>
+          <td>
+        <div id="container">
+            <div class="pane">
+                <table>
+                    <tr>
+                        <td><img src="i(2).webp" width="150" height="200" alt="evisu"></td>
+                        <td><p><b>Мужские джинсы EVISU</b></p><p>Мужские джинсы EVISU тату вышитый карп джинсовой ткани calico синий размеры 28-30 дюймов</p><p>Цена: US $50,00</p><button class="remove-button">read...</button></td>
+                    </tr>
+                  </table>
+            </div>
+            <div class="pane">
+                <table>
+                    <tr>
+                        <td><img src="i.webp" width="200" height="200" alt="adidas"></td>
+                        <td><p><b>ADIDAS SAMBA</b></p><p>ADIDAS SAMBA VEGAN 1860577</p><p>Цена: BYN 377.00p</p><button class="remove-button">read...</button></td>
+                    </tr>
+                </table>    
+            </div>
+            <div class="pane">
+              <table>
+                <tr>
+                    <td><img src="i(1).webp" width="200" height="200" alt="stonil"></td>
+                    <td><p><b>Свитшот  Ston Islahd</b></p><p>Sweatshirts Stone Island</p><p>Цена: US $350.00</p><button class="remove-button">read...</button></td>
+                    <script>
+                      container.onclick = function(event) {
+                        if (event.target.className != 'remove-button') return;
+                        let pane = event.target.closest('.pane');
+                        pane.remove();
+                      };
+                    </script>
+                </tr>
+                </table>
+            </div>
+          </div>
+          </td>
+          <td>
+            <p>Stone Island</p>
+            <a href="https://www.stoneisland.com/Home/Index?sitecode=STONEISLAND_US&yurirulename=home,home"><img src="i(3).webp" width="100" height="100" alt="weq"></a>
+            <p>Adidas</p>
+            <a href="https://www.adidas.com/us"><img src="i(4).webp" width="100" height="100" alt="qq"></a>
+    <form method="get">
+      <input name="s" placeholder="Искать здесь..." type="search">
+      <button type="submit">Поиск</button>
+    </form>
+          </td>
+          </tr>
+          </table>
+    </body>
+</html>
